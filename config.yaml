@@ -1,0 +1,19 @@
+### MUST EDIT
+PROJECT_ROOT: "/projects/lculibrk_prj/denovo_signature_pipeline"
+REFERENCE_SIGNATURE_PATH: "/projects/lculibrk_prj/denovo_signature_pipeline/supplemental_data/signatures_probabilities_genome.txt"
+PROJECT_NAMES:
+ - "test"
+PROJECT_GENOMES: 
+ test: "BSgenome.Hsapiens.UCSC.hgXX"
+MAF_COLNAMES:
+ test: "Chromosome,Start_Position,Reference_Allele,Allele"
+ANALYSIS_COHORTS: 
+ test:
+  - "test_cohort"
+### Can leave alone
+WTSI_ITERATIONS_PER_CORE: 10
+WTSI_CORES: 100
+WTSI_NSIG_RANGE: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
